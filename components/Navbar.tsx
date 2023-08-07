@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import CustomButoon from './CustomButoon'
+import CustomButton from './CustomButton'
 
 const Navbar = () => {
     return (
@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Link className='flex justify-center items-center' href="/">
                     <Image src="/logo.svg" alt='Car hub Logo' width={118} height={18} className='object-contain' />
                 </Link>
-                <CustomButoon title="Sign In" btnType="button" containerStyle='text-primary-blue rounded-full bg-white min-w-[130px]' />
+                <CustomButton title="Sign In" btnType="button" containerStyle='text-primary-blue rounded-full bg-white min-w-[130px]' />
             </nav>
         </header>
     )

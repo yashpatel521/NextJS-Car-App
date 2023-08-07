@@ -2,7 +2,7 @@
 
 
 import Image from "next/image"
-import CustomButoon from "./CustomButoon"
+import CustomButton from "./CustomButton"
 
 const Hero = () => {
     const handleScroll = () => { }
@@ -15,7 +15,7 @@ const Hero = () => {
                 <p className="hero__subtitle">
                     Streamline your car rental exprience with our effortless booking process.
                 </p>
-                <CustomButoon title="Explore Cars" containerStyle="bg-primary-blue text-white rounded-full mt-10" handleClick={handleScroll} />
+                <CustomButton title="Explore Cars" containerStyle="bg-primary-blue text-white rounded-full mt-10" handleClick={handleScroll} />
             </div>
             <div className="hero__image-container">
                 <div className="hero__image">
